@@ -22,12 +22,13 @@
      this.showLetter();
    };
  };
+var word = new Letter ("b");
 
 //exporting to use in word.js
 //module.exports = Letter;
 
 //testing show letter function
-this.showLetter();
+console.log(word.showLetter());
 
 //simple console.log statement for testing purposes
 //console.log("is this printing anything?");
